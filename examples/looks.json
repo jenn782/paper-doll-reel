@@ -1,0 +1,25 @@
+{
+  "out": "lookbook.mp4",
+  "head_px": 480,
+  "colors": {"bg": "#ED84B0", "burst": "#EFA6C2", "ink": "#C4245C", "text": "#FFFFFF", "accent": "#EFA6C2"},
+  "fonts": {"hand": "/System/Library/Fonts/Supplemental/ChalkboardSE.ttc", "hand_index": 2,
+            "bold": "fonts/Urbanist-Black.ttf", "mono": "fonts/SpaceMono-Regular.ttf"},
+  "pen": "parts/crayon.png",
+  "hook": ["spend the day", "with me"],
+  "looks": [
+    {"label": "morning", "time": "9am",
+     "heads": ["parts/head-laugh.png", "parts/head-smile.png"],
+     "top": "parts/top-1.png", "top_w": 1.0, "bottoms": "parts/jeans-1.png", "bottoms_w": 0.52,
+     "shoe": "parts/shoe-1.png", "shoe_faces": "right", "shoe_w": 0.4},
+    {"label": "lunch", "time": "12pm",
+     "heads": ["parts/head-smile.png"],
+     "top": "parts/top-2.png", "top_w": 1.0, "bottoms": "parts/skirt-2.png", "bottoms_w": 0.55, "walk": false,
+     "shoe": "parts/shoe-2.png", "shoe_w": 0.35, "prop": "parts/bag.png", "prop_w": 0.5},
+    {"label": "night out", "time": "8pm",
+     "heads": ["parts/head-laugh.png"],
+     "top": "parts/top-3.png", "top_w": 1.0, "bottoms": "parts/trousers-3.png", "bottoms_w": 0.5,
+     "shoe": "parts/shoe-3.png", "shoe_w": 0.35}
+  ],
+  "cta": ["follow for", "part two"],
+  "ending": {"image": "parts/car.png", "faces": "left", "line": "get in"}
+}
