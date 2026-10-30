@@ -36,7 +36,13 @@ claude might ask before it installs things. say yes. this is the slow bit, about
 
 make a folder on your desktop called **paper doll** and put these in it:
 
-- **your face.** 2 or 3 photos, each with a different expression (laughing, a kiss face, a big smile). a plain wall behind you works best, and hair down looks great as a cut-out. the heads are big in these reels, so a face that's pulling an expression is what makes it fun.
+- **your face.** 2 or 3 photos, each with a different expression (laughing, a kiss face, a big smile). the heads are big in these reels, so the photos matter most. for the best cut-outs:
+  - stand against a plain wall and look straight at the camera
+  - wear your hair down, because hair gives the head its shape (hair pulled back makes it look like a floating face)
+  - get your shoulders in the shot, so claude can cut the head off neatly at the neck
+  - fun props on your face, like sunglasses, look great
+
+  already have a head cut-out sticker of yourself? use that, it'll look even better.
 - **your outfits.** one screenshot per look, from your camera roll, pinterest or a shop website. a flat-lay showing the whole outfit is perfect, because claude crops each piece out of it.
 - **extras (optional):** props like a phone, bag or laptop, and a car or bike for the ending.
 
