@@ -2,7 +2,9 @@
 
 a claude code skill that turns photos of your face and screenshots of your outfits into a big-head paper doll stop-motion reel (1080x1920). the dolls walk on the spot, a crayon writes each look's name in kid handwriting, starbursts pop behind them, and it ends on your call to action with a car driving off.
 
-made by [@getgitgirl](https://instagram.com/getgitgirl).
+made by [@jennpoteau](https://instagram.com/jennpoteau), **Go Be Creative edition**. it comes styled in my AI Diary look (violet, yellow marker handwriting, Anton), and you can swap in your own brand in one sentence.
+
+free step-by-step guide: [digitalmediaaicoach.com](https://digitalmediaaicoach.com)
 
 ## new to claude code?
 
@@ -13,13 +15,13 @@ follow the [easy guide](GUIDE.md). it goes from zero to a finished reel, no codi
 open claude code and paste:
 
 ```
-install the paper doll reel skill from github.com/nicolapocock/paper-doll-reel, then set up everything it needs (the python packages and ffmpeg) and tell me when it's ready
+install the paper doll reel skill from github.com/jenn782/paper-doll-reel, then set up everything it needs (the python packages and ffmpeg) and tell me when it's ready
 ```
 
 or in terminal:
 
 ```bash
-npx skills add nicolapocock/paper-doll-reel
+npx skills add jenn782/paper-doll-reel
 ```
 
 it needs python 3 with `pillow numpy scipy "rembg[cpu]"` (in a virtual environment) and `ffmpeg`. [SKILL.md](skills/paper-doll-reel/SKILL.md) has the setup commands.

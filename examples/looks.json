@@ -1,10 +1,10 @@
 {
   "out": "lookbook.mp4",
   "head_px": 480,
-  "colors": {"bg": "#ED84B0", "burst": "#EFA6C2", "ink": "#C4245C", "text": "#FFFFFF", "accent": "#EFA6C2"},
-  "fonts": {"hand": "/System/Library/Fonts/Supplemental/ChalkboardSE.ttc", "hand_index": 2,
-            "bold": "fonts/Urbanist-Black.ttf", "mono": "fonts/SpaceMono-Regular.ttf"},
-  "pen": "parts/crayon.png",
+  "colors": {"bg": "#6A4CFF", "burst": "#8F78FF", "ink": "#FFD400", "text": "#F8F6F2", "shadow": "#0A0A0A", "accent": "#FF5A4F", "line": "#F8F6F2"},
+  "fonts": {"hand": "fonts/PermanentMarker-Regular.ttf", "hand_index": 0,
+            "bold": "fonts/Anton-Regular.ttf", "mono": "fonts/Poppins-SemiBold.ttf"},
+  "pen": "parts/marker.png",
   "hook": ["spend the day", "with me"],
   "looks": [
     {"label": "morning", "time": "9am",
@@ -20,6 +20,6 @@
      "top": "parts/top-3.png", "top_w": 1.0, "bottoms": "parts/trousers-3.png", "bottoms_w": 0.5,
      "shoe": "parts/shoe-3.png", "shoe_w": 0.35}
   ],
-  "cta": ["follow for", "part two"],
-  "ending": {"image": "parts/car.png", "faces": "left", "line": "get in"}
+  "cta": ["want to make one?", "grab the free guide", "link in my", "bio"],
+  "ending": {"image": "parts/car.png", "faces": "left", "line": "Go Be Creative"}
 }

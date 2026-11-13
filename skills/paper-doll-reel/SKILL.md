@@ -20,7 +20,7 @@ python3 -m venv ~/.paper-doll-venv
 
 Run the scripts as `~/.paper-doll-venv/bin/python scripts/...`. If `ffmpeg` is missing, install it with `brew install ffmpeg`. rembg downloads its model (about 170 MB) the first time it runs, so the first cut-out is slow. After that, a cut-out takes about 3 to 25 seconds.
 
-**Fonts.** `render.py` needs real font files: a handwriting font, a bold font and a mono font. On a Mac, the handwriting font is already there (`/System/Library/Fonts/Supplemental/ChalkboardSE.ttc`, index 2). For the other two, use the person's brand fonts. If they have none, download Urbanist and Space Mono from Google Fonts and point `fonts.bold` and `fonts.mono` at the .ttf files.
+**Fonts.** `render.py` needs real font files: a handwriting font, a bold font and a mono font. Use the person's brand fonts. If they have none, use the Go Be Creative defaults, all free from Google Fonts: Permanent Marker (handwriting), Anton (bold) and Poppins SemiBold (mono/timeline). Download the .ttf files into a `fonts/` folder and point `fonts.hand`, `fonts.bold` and `fonts.mono` at them with absolute paths (the renderer doesn't expand `~`). A Mac also has a kid-handwriting fallback at `/System/Library/Fonts/Supplemental/ChalkboardSE.ttc`, index 2.
 
 ## Workflow
 
@@ -52,9 +52,9 @@ Paths in the file are relative to `looks.json`. The colours shown are an example
 {
   "out": "lookbook.mp4",
   "head_px": 480,
-  "colors": {"bg": "#ED84B0", "burst": "#EFA6C2", "ink": "#C4245C", "text": "#FFFFFF", "accent": "#EFA6C2"},
-  "fonts": {"hand": "/System/Library/Fonts/Supplemental/ChalkboardSE.ttc", "hand_index": 2,
-            "bold": "fonts/Urbanist-900.ttf", "mono": "fonts/SpaceMono-Regular.ttf"},
+  "colors": {"bg": "#6A4CFF", "burst": "#8F78FF", "ink": "#FFD400", "text": "#F8F6F2", "shadow": "#0A0A0A", "accent": "#FF5A4F", "line": "#F8F6F2"},
+  "fonts": {"hand": "fonts/PermanentMarker-Regular.ttf", "hand_index": 0,
+            "bold": "fonts/Anton-Regular.ttf", "mono": "fonts/Poppins-SemiBold.ttf"},
   "pen": "parts/crayon.png",
   "hook": ["spend the day", "with me"],
   "looks": [
@@ -69,8 +69,8 @@ Paths in the file are relative to `looks.json`. The colours shown are an example
      "shoe": "parts/boot.png", "shoe_w": 0.27, "shoe_ankle": 0.7,
      "arms": "parts/arms.png", "arms_w": 1.3, "arms_y": 0.3, "arms_out": 0.03, "prop": "parts/bag.png", "prop_w": 0.6}
   ],
-  "cta": ["want to learn", "how to make this?", "comment", "paper"],
-  "ending": {"image": "parts/car.png", "faces": "left", "line": "get in"}
+  "cta": ["want to make one?", "grab the free guide", "link in my", "bio"],
+  "ending": {"image": "parts/car.png", "faces": "left", "line": "Go Be Creative"}
 }
 ```
 

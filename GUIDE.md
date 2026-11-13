@@ -27,7 +27,7 @@ setup takes about 15 minutes the first time. after that, a reel is about 20 minu
 paste this into the code tab and press return:
 
 ```
-install the paper doll reel skill from github.com/nicolapocock/paper-doll-reel, then set up everything it needs (the python packages and ffmpeg) and tell me when it's ready
+install the paper doll reel skill from github.com/jenn782/paper-doll-reel, then set up everything it needs (the python packages and ffmpeg) and tell me when it's ready
 ```
 
 claude might ask before it installs things. say yes. this is the slow bit, about 10 minutes, and you only do it once.
@@ -51,7 +51,7 @@ make a folder on your desktop called **paper doll** and put these in it:
 paste this, swapping the bits in [brackets] for yours:
 
 ```
-use the paper doll reel skill to make me a reel from the photos in the paper doll folder on my desktop. 3 looks: [morning at 9am, lunch at 12pm, night out at 8pm]. my brand colours are [#ED84B0 and #EFA6C2] and my fonts are [your fonts, or pick some for me]. the hook is "[spend the day with me]" and it should end with "[comment PAPER]". show me the stills before you render.
+use the paper doll reel skill to make me a reel from the photos in the paper doll folder on my desktop. 3 looks: [morning at 9am, lunch at 12pm, night out at 8pm]. my brand colours are [#6A4CFF and #FFD400] and my fonts are [your fonts, or pick some for me]. the hook is "[spend the day with me]" and it should end with "[want to make one? link in my bio]". show me the stills before you render.
 ```
 
 claude cuts out every piece, builds a doll for each look and shows you a still of each one.
@@ -85,4 +85,4 @@ when the stills look right, say **"render it"**. it takes about a minute, and cl
 - **a piece has a white halo or a bit of background left.** say "re-cut the [piece], it still has background round it".
 - **the doll looks like a box.** the top is too long. say "tuck the top into the jeans more".
 
-made by [@getgitgirl](https://instagram.com/getgitgirl)
+made by [@jennpoteau](https://instagram.com/jennpoteau) · Go Be Creative
